@@ -15,6 +15,12 @@
 		009C4C811D9F0CD600F0BC6C /* OpenTweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C4C801D9F0CD600F0BC6C /* OpenTweetTests.swift */; };
 		009C4C8C1D9F0CD600F0BC6C /* OpenTweetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C4C8B1D9F0CD600F0BC6C /* OpenTweetUITests.swift */; };
 		009C4C9B1D9F0D4100F0BC6C /* timeline.json in Resources */ = {isa = PBXBuildFile; fileRef = 009C4C9A1D9F0D4100F0BC6C /* timeline.json */; };
+		0F0B7EC7A4FF9088FD60D974 /* Pods_OpenTweetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEF34CF5A96E9FEC302A950 /* Pods_OpenTweetTests.framework */; };
+		2FAAA67F7F0117E8C3C92A60 /* Pods_OpenTweet_OpenTweetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D805AA891299BA7D00FE7B6 /* Pods_OpenTweet_OpenTweetUITests.framework */; };
+		771463892321314608EE38EE /* Pods_OpenTweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E5F8C99A1E03CA83FD7452 /* Pods_OpenTweet.framework */; };
+		DBF39CB3274BCFE500AED871 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF39CB2274BCFE500AED871 /* Tweet.swift */; };
+		DBF39CB5274BCFF200AED871 /* Tweets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF39CB4274BCFF200AED871 /* Tweets.swift */; };
+		DBF39CB7274BD06500AED871 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF39CB6274BD06500AED871 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,18 @@
 		009C4C8D1D9F0CD600F0BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009C4C9A1D9F0D4100F0BC6C /* timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeline.json; sourceTree = "<group>"; };
 		009C4C9D1D9F104800F0BC6C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09E5F8C99A1E03CA83FD7452 /* Pods_OpenTweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D805AA891299BA7D00FE7B6 /* Pods_OpenTweet_OpenTweetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTweet_OpenTweetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D6C1DCD1C21B6DC997D344 /* Pods-OpenTweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweet.debug.xcconfig"; path = "Target Support Files/Pods-OpenTweet/Pods-OpenTweet.debug.xcconfig"; sourceTree = "<group>"; };
+		4353BA1004EB9E364341751B /* Pods-OpenTweet-OpenTweetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweet-OpenTweetUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenTweet-OpenTweetUITests/Pods-OpenTweet-OpenTweetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FBE689921CFA4F222DBB40D /* Pods-OpenTweet-OpenTweetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweet-OpenTweetUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenTweet-OpenTweetUITests/Pods-OpenTweet-OpenTweetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5052C7A4285E5F5951EFE79A /* Pods-OpenTweetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweetTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenTweetTests/Pods-OpenTweetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEF34CF5A96E9FEC302A950 /* Pods_OpenTweetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTweetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C29DB10680869516E619D5 /* Pods-OpenTweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweet.release.xcconfig"; path = "Target Support Files/Pods-OpenTweet/Pods-OpenTweet.release.xcconfig"; sourceTree = "<group>"; };
+		DBF39CB2274BCFE500AED871 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		DBF39CB4274BCFF200AED871 /* Tweets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweets.swift; sourceTree = "<group>"; };
+		DBF39CB6274BD06500AED871 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		EC0A9E91B5C690E324B22DB1 /* Pods-OpenTweetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTweetTests.release.xcconfig"; path = "Target Support Files/Pods-OpenTweetTests/Pods-OpenTweetTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771463892321314608EE38EE /* Pods_OpenTweet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0B7EC7A4FF9088FD60D974 /* Pods_OpenTweetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FAAA67F7F0117E8C3C92A60 /* Pods_OpenTweet_OpenTweetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +107,8 @@
 				009C4C8A1D9F0CD600F0BC6C /* OpenTweetUITests */,
 				009C4C691D9F0CD600F0BC6C /* Products */,
 				009C4C9D1D9F104800F0BC6C /* README.md */,
+				90E024BBA6B7ECB0AACC6DD0 /* Pods */,
+				F929F5F6F6E2F18D9FFC7329 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +131,9 @@
 				009C4C741D9F0CD600F0BC6C /* LaunchScreen.storyboard */,
 				009C4C721D9F0CD600F0BC6C /* Assets.xcassets */,
 				009C4C771D9F0CD600F0BC6C /* Info.plist */,
+				DBF39CB2274BCFE500AED871 /* Tweet.swift */,
+				DBF39CB6274BD06500AED871 /* TweetCell.swift */,
+				DBF39CB4274BCFF200AED871 /* Tweets.swift */,
 			);
 			path = OpenTweet;
 			sourceTree = "<group>";
@@ -138,6 +164,29 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		90E024BBA6B7ECB0AACC6DD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D6C1DCD1C21B6DC997D344 /* Pods-OpenTweet.debug.xcconfig */,
+				D9C29DB10680869516E619D5 /* Pods-OpenTweet.release.xcconfig */,
+				4FBE689921CFA4F222DBB40D /* Pods-OpenTweet-OpenTweetUITests.debug.xcconfig */,
+				4353BA1004EB9E364341751B /* Pods-OpenTweet-OpenTweetUITests.release.xcconfig */,
+				5052C7A4285E5F5951EFE79A /* Pods-OpenTweetTests.debug.xcconfig */,
+				EC0A9E91B5C690E324B22DB1 /* Pods-OpenTweetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F929F5F6F6E2F18D9FFC7329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09E5F8C99A1E03CA83FD7452 /* Pods_OpenTweet.framework */,
+				0D805AA891299BA7D00FE7B6 /* Pods_OpenTweet_OpenTweetUITests.framework */,
+				BBEF34CF5A96E9FEC302A950 /* Pods_OpenTweetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009C4C901D9F0CD600F0BC6C /* Build configuration list for PBXNativeTarget "OpenTweet" */;
 			buildPhases = (
+				DE06C31FB298A1AEC413A7E9 /* [CP] Check Pods Manifest.lock */,
 				009C4C641D9F0CD600F0BC6C /* Sources */,
 				009C4C651D9F0CD600F0BC6C /* Frameworks */,
 				009C4C661D9F0CD600F0BC6C /* Resources */,
+				6C9DD587B27DF17A637623B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009C4C931D9F0CD600F0BC6C /* Build configuration list for PBXNativeTarget "OpenTweetTests" */;
 			buildPhases = (
+				50740EFD82E2A307332FD0D4 /* [CP] Check Pods Manifest.lock */,
 				009C4C781D9F0CD600F0BC6C /* Sources */,
 				009C4C791D9F0CD600F0BC6C /* Frameworks */,
 				009C4C7A1D9F0CD600F0BC6C /* Resources */,
@@ -180,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 009C4C961D9F0CD600F0BC6C /* Build configuration list for PBXNativeTarget "OpenTweetUITests" */;
 			buildPhases = (
+				9BC9BAB89F60B7E69F343E94 /* [CP] Check Pods Manifest.lock */,
 				009C4C831D9F0CD600F0BC6C /* Sources */,
 				009C4C841D9F0CD600F0BC6C /* Frameworks */,
 				009C4C851D9F0CD600F0BC6C /* Resources */,
+				FE31D18CD42BB5E4A4FFB679 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,13 +325,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50740EFD82E2A307332FD0D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTweetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C9DD587B27DF17A637623B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTweet/Pods-OpenTweet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenTweet/Pods-OpenTweet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC9BAB89F60B7E69F343E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTweet-OpenTweetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE06C31FB298A1AEC413A7E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenTweet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE31D18CD42BB5E4A4FFB679 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenTweet-OpenTweetUITests/Pods-OpenTweet-OpenTweetUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenTweet-OpenTweetUITests/Pods-OpenTweet-OpenTweetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		009C4C641D9F0CD600F0BC6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF39CB3274BCFE500AED871 /* Tweet.swift in Sources */,
 				009C4C6E1D9F0CD600F0BC6C /* TimelineViewController.swift in Sources */,
+				DBF39CB7274BD06500AED871 /* TweetCell.swift in Sources */,
 				009C4C6C1D9F0CD600F0BC6C /* AppDelegate.swift in Sources */,
+				DBF39CB5274BCFF200AED871 /* Tweets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +615,7 @@
 		};
 		009C4C911D9F0CD600F0BC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D6C1DCD1C21B6DC997D344 /* Pods-OpenTweet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPU8QS3E62;
@@ -463,6 +630,7 @@
 		};
 		009C4C921D9F0CD600F0BC6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C29DB10680869516E619D5 /* Pods-OpenTweet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QPU8QS3E62;
@@ -477,6 +645,7 @@
 		};
 		009C4C941D9F0CD600F0BC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5052C7A4285E5F5951EFE79A /* Pods-OpenTweetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +662,7 @@
 		};
 		009C4C951D9F0CD600F0BC6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0A9E91B5C690E324B22DB1 /* Pods-OpenTweetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +679,7 @@
 		};
 		009C4C971D9F0CD600F0BC6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBE689921CFA4F222DBB40D /* Pods-OpenTweet-OpenTweetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QPU8QS3E62;
@@ -524,6 +695,7 @@
 		};
 		009C4C981D9F0CD600F0BC6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4353BA1004EB9E364341751B /* Pods-OpenTweet-OpenTweetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QPU8QS3E62;

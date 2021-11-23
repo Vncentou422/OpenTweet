@@ -1,3 +1,23 @@
+Change Log
+=========
+
+11/22 Commit:
+-------------
+
+Added Podfile with AlamoFire package
+Created Tweet, Tweets, TweetCell files 
+MVP is now complete. Application now displays the tweet:
+* username
+* date
+* message
+
+Bonuses Completed:
+* Tweets now include avatar images, utilizing AlamoFireImage
+* @mentions and https:// links are now highlighted blue in the tweet
+* Clicking the tweet will bring up corresponding replies if applicable, otherwise will bring up the tweet clicked tweet was replying to
+* Above action presents another view modally to display replies
+
+
 OpenTweet
 =========
 
